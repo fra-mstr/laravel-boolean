@@ -52,3 +52,27 @@ header {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.users {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.users img {
+  width: 4em;
+  margin-bottom: .5em;
+}
+
+.users span {
+  margin-bottom: .5em;
+}

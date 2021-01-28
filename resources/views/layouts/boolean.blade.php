@@ -15,7 +15,8 @@
           @foreach (config('paths.routes') as $route)
             <li>
               <a
-                href="{{ $route['id'] }}">
+                href="{{ $route['id'] }}"
+              >
                   {{ $route['name'] }}
               </a>
             </li>

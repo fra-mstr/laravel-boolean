@@ -28,3 +28,5 @@ Route::get('/carriere', function(){
 Route::get('/lezione-gratuita', function(){
   return view('camp');
 });
+
+Route::get('/utenti', 'UserController@index');
