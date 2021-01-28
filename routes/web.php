@@ -30,3 +30,5 @@ Route::get('/lezione-gratuita', function(){
 });
 
 Route::get('/utenti', 'UserController@index');
+
+Route::get('/utenti/{id}', 'UserController@show')->name('users.info');

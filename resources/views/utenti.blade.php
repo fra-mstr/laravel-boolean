@@ -8,6 +8,7 @@
         <span>{{ $user->first_name }}</span>
         <span>{{ $user->last_name }}</span>
         <span>{{ $user->email }}</span>
+        <a href="utenti/{{ $user->id }}">show info</a>
       </div>
     @endforeach
 @endsection
